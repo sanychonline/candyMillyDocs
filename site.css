@@ -1168,3 +1168,15 @@ h1 {
     max-width: 42vw;
   }
 }
+
+/* Shared support and legal pages use Candy Milly's confectionery palette. */
+.topbar, .home .topbar { background: rgba(112, 28, 80, .94); }
+body:not(.home) { background: radial-gradient(circle at 12% 12%, rgba(243, 163, 200, .32), transparent 22rem), radial-gradient(circle at 88% 18%, rgba(255, 214, 158, .28), transparent 24rem), linear-gradient(180deg, #FFF9FC, #FBE0ED 55%, #F3C6DB); }
+.legal-hero { background: radial-gradient(circle at 82% 16%, rgba(255, 207, 150, .48), transparent 23rem), linear-gradient(145deg, #711D51, #D15D9A 54%, #F3A6C9); }
+.summary { border-color: rgba(209, 93, 154, .3); background: rgba(243, 163, 200, .24); }
+.toc, .stat-card, .faq details { border-color: rgba(209, 93, 154, .23); background: rgba(255, 251, 253, .8); }
+.faq details[open] { background: #FFFFFF; box-shadow: 0 14px 36px rgba(112, 28, 80, .12); }
+.document p, .document li, .faq-answer { color: #6A4056; }
+.page-card { background: linear-gradient(145deg, #711D51, #C85590 56%, #F2A6C8); }
+.page-card::after { color: #FFE0AC; }
+.footer { background: #46102F; }
