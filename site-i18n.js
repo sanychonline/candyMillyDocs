@@ -1,5 +1,5 @@
 (() => {
-  const catalog = window.MillySweetiePageTranslations;
+  const catalog = window.CandyMillyPageTranslations;
   if (!catalog) return;
   const translations = Object.fromEntries(
     Object.entries(catalog.locales).map(([locale, values]) => [
@@ -47,12 +47,12 @@
     hi: "वेबसाइट की भाषा"
   };
   const brandLabels = {
-    uk: "Міллі Світі",
-    en: "Milly Sweetie"
+    uk: "Кенді Міллі",
+    en: "Candy Milly"
   };
   const supported = languages.map(([code]) => code);
   const aliases = { pt: "pt-BR", zh: "zh-Hans" };
-  const storageKey = "millysweetie-language";
+  const storageKey = "candymilly-language";
 
   function normalize(value) {
     if (!value) return null;
@@ -96,7 +96,7 @@
   const requested = normalize(params.get("lang"));
   const saved = normalize(
     localStorage.getItem(storageKey) ||
-    localStorage.getItem("millysweetie-support-language")
+    localStorage.getItem("candymilly-support-language")
   );
   const preferred = navigator.languages?.map(normalize).find(Boolean);
   const initial = requested || saved || preferred || "en";

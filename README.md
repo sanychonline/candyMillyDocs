@@ -1,6 +1,6 @@
-# millySweetie Docs
+# candyMilly Docs
 
-Official website for **Milly Sweetie** / **Міллі Світі**, an iOS arcade game starring Milly.
+Official website for **Candy Milly** / **Кенді Міллі**, an iOS arcade game starring Milly.
 
 ## Main character
 
