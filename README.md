@@ -1,6 +1,6 @@
 # Candy Milly Docs
 
-Public product and support site for **Candy Milly** / **Кенді Міллі**. The character is **Кенді Міллі**, catching falling candies in a three-lane arcade game.
+Public product and support site for **Candy Milly** / **Кенді Міллі**. The character is **Кенді Міллі**, racing through a candy-filled three-lane arcade run.
 
 ## Site content
 
