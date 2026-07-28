@@ -1,17 +1,16 @@
-# candyMilly Docs
+# Candy Milly Docs
 
-Official website for **Candy Milly** / **Кенді Міллі**, an iOS arcade game starring Milly.
+Public product and support site for **Candy Milly** / **Кенді Міллі**. The character is **Кенді Міллі**, catching falling candies in a three-lane arcade game.
 
-## Main character
+## Site content
 
-The game's main character is **Milly** (**Міллі**).
+- Uses Candy Milly app assets: character, candies, game background, icon, and logo.
+- Keeps the candy-pink palette consistent on `index.html`, `support.html`, `privacy.html`, and `terms.html`.
+- Shows the approved Docs screenshots: launch art without a spinner, active gameplay with falling candies and no Game Over or banner, and English settings.
+- Provides localized support in 17 interface languages.
 
-## Pages
+## Deployment
 
-- `index.html` — product landing page
-- `support.html` — localized support in 17 languages
-- `privacy.html` — privacy policy
-- `terms.html` — terms of use
+The static public site deploys from `main` through `.github/workflows/pages.yml`.
 
-The site is static and deployed to GitHub Pages through
-`.github/workflows/pages.yml`.
+https://sanychonline.github.io/candyMillyDocs/
